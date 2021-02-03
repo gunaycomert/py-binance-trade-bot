@@ -2,6 +2,9 @@ from binance.client import Client
 import time
 import requests
 
+#eth: 0x82d50cbd1c8be4e54dc2627ab9baf44dea31d0ce
+#btc: 13NPbFEHaAhHav5jKa4Nka9G6EEb8nMyjY
+#usdt: 0x82d50cbd1c8be4e54dc2627ab9baf44dea31d0ce
 binance = Client('api_', 'secret_')
 gt = binance.get_server_time()
 
